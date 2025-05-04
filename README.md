@@ -92,7 +92,8 @@ Yes, your playwright-mcp-exe-automation MCP server is currently running. The pro
 If you need to check its status further or interact with it, let me know!
 ```
 
-## Setup - Python and dependencies
+## Setup - Python and dependencies to run the example executed code
+
 - Install Python
 - Configure Virtual Python in this project.
 ```
