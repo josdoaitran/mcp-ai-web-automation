@@ -98,7 +98,7 @@ If you need to check its status further or interact with it, let me know!
 - Configure Virtual Python in this project.
 ```
 # Set up virtual environment
-python -m venv venv
+python3 -m venv venv
 # On MacOSX / Linux
 source venv/bin/activate  
 # On Windows: venv\Scripts\activate
