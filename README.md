@@ -77,6 +77,21 @@ to
 If we configured successfully, We can see our MCP in Cursor like this
 ![](./images/mcp-installed-cursor.png)
 
+# Let us check our MCP running or not?
+We can ask LLM AI in Cursor with this prompt:
+```
+Is my playwright-mcp-exe-automation MCP server running ?
+```
+Cursor AI will asked us to run this command:
+```
+ps aux | grep playwright-mcp-server | grep -v grep | cat
+```
+And here is response from Cursor AI
+```cmd
+Yes, your playwright-mcp-exe-automation MCP server is currently running. The process list shows both the node /usr/local/bin/playwright-mcp-server and the npm exec @executeautomation/playwright-mcp-server processes, which means the server is active and running in the background.
+If you need to check its status further or interact with it, let me know!
+```
+
 ## Setup - Python and dependencies
 - Install Python
 - Configure Virtual Python in this project.
