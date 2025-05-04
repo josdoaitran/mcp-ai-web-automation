@@ -54,6 +54,28 @@ added 85 packages in 2m
 - Go Settings in Cursor. Settings > Cursor Settings
 - MCP tab
 ![](./images/mcp-cursor-setting.png)
+- Edit mcp.json from
+```json
+{
+  "mcpServers": {}
+}
+```
+to 
+```json
+{
+{
+  "mcpServers": {
+    "playwright-mcp-exe-automation":{
+        "command": "npx",
+        "args": [
+            "@executeautomation/playwright-mcp-server"
+        ]
+    }
+  }
+}
+```
+If we configured successfully, We can see our MCP in Cursor like this
+![](./images/mcp-installed-cursor.png)
 
 ## Setup - Python and dependencies
 - Install Python
