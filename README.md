@@ -66,7 +66,6 @@ added 85 packages in 2m
 to 
 ```json
 {
-{
   "mcpServers": {
     "playwright-mcp-exe-automation":{
         "command": "npx",
