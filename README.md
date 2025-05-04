@@ -14,9 +14,10 @@ The Model Context Protocol (MCP) is an open protocol that standardizes how appli
 
 # Setup the local environment
 ## Install MCP Playwright from ExecutionAutomation:
-``cmd
+```terminal
 npm install -g @executeautomation/playwright-mcp-server
 ```
+
 In cases, you get the troubles in install some dependencies in node. You can run these command:
 ```
 sudo chown -R $(whoami) ~/.npm
@@ -24,6 +25,7 @@ sudo chown -R $(whoami) /usr/local/lib/node_modules/npm/node_modules
 sudo chown -R $(whoami) /usr/local/lib/node_modules
 sudo chown -R $(whoami) /Users/doaitran/Library/Caches
 ```
+
 In case, you installed playwright-mcp-server. We should unstall and install again like:
 ```terminal
 ❯ npm install -g @executeautomation/playwright-mcp-server
@@ -50,6 +52,7 @@ added 85 packages in 2m
 17 packages are looking for funding
   run `npm fund` for details
 ```
+
 ## Install Cursor and Setup MCP in Cursor
 - Go Settings in Cursor. Settings > Cursor Settings
 - MCP tab
