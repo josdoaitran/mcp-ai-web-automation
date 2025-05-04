@@ -2,9 +2,10 @@
 - Let start with a mcp for covering web-automation with playwright in cursor.
 - It is based on: MCP Execution Playwright, Cursor
 
-## MCP - ExecuteAutomation: 
+## MCP - ExecuteAutomation
 - https://github.com/executeautomation/mcp-playwright
 - A Model Context Protocol server that provides browser automation capabilities using Playwright. This server enables LLMs to interact with web pages, take screenshots, generate test code, web scraps the page and execute JavaScript in a real browser environment.
+
 ## Cursor AI Editor.
 - Modern Editor tool - Core VSCode: https://www.cursor.com/
 - MCP feature in Cursor: https://docs.cursor.com/context/model-context-protocol
@@ -13,4 +14,11 @@ The Model Context Protocol (MCP) is an open protocol that standardizes how appli
 
 # Setup the local environment
 - Install Python
-- Configure Virtual Python in this project
+- Configure Virtual Python in this project.
+```
+# Set up virtual environment
+python -m venv venv
+# On MacOSX / Linux
+source venv/bin/activate  
+# On Windows: venv\Scripts\activate
+```
