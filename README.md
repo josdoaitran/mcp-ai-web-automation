@@ -13,8 +13,8 @@
 The Model Context Protocol (MCP) is an open protocol that standardizes how applications provide context and tools to LLMs. Think of MCP as a plugin system for Cursor - it allows you to extend the Agent’s capabilities by connecting it to various data sources and tools through standardized interfaces.
 
 # Setup the local environment
-- Install MCP Playwright from ExecutionAutomation:
-```cmd
+## Install MCP Playwright from ExecutionAutomation:
+``cmd
 npm install -g @executeautomation/playwright-mcp-server
 ```
 In cases, you get the troubles in install some dependencies in node. You can run these command:
@@ -50,7 +50,12 @@ added 85 packages in 2m
 17 packages are looking for funding
   run `npm fund` for details
 ```
+## Install Cursor and Setup MCP in Cursor
+- Go Settings in Cursor. Settings > Cursor Settings
+- MCP tab
+![](./images/mcp-cursor-setting.png)
 
+## Setup - Python and dependencies
 - Install Python
 - Configure Virtual Python in this project.
 ```
