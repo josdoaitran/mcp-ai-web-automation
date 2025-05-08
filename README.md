@@ -1,7 +1,7 @@
 # All AI - MCP for Web Automation Testing
 Here is the list of side projects:
-- 1. MCP with AI, Execute Automation lib - AI Agent with Cursor
-- 2. MCP with AI, MCP Playwright - Claude
+1. MCP with AI, Execute Automation lib - AI Agent with Cursor
+2. MCP with AI, MCP Playwright - Claude
 ## 1. MCP with AI, Execute Automation lib - AI Agent with Cursor
 - Execute Automation MCP
 - Cursor
