@@ -98,3 +98,33 @@ Please use playwright MCP to open a browser and access to google.com and search 
 ```
 Here is the example code that Claude generate the tests from the scenario that we work with MCP Playwright.
 ![](./images/mcp-playwright-claude-generate-code.png)
+
+
+## Work with VSCode and Copilot
+- Install VSCode
+- Login Github Copilot
+Note: Github copilot has 3 modes: Ask, Agent, Edit.
+- Configure MCP Server in your VSCode or VSCode Insider
+Open Settings > MCP setting in `Settings.json` file.
+
+```
+"mcp": {
+        "inputs": [],
+        "servers": {
+            "playwright-mcp-server":{
+                "command": "npx",
+                "args": [
+                    "@executeautomation/playwright-mcp-server"
+                ]
+            }
+        }
+    }
+```
+
+You also can configure by run this command.
+```
+# For VS Code
+code --add-mcp '{"name":"playwright-mcp-server","command":"npx","args":["@executeautomation/playwright-mcp-server"]}'
+# For VS Code Insiders
+code-insiders --add-mcp '{"name":"playwright-mcp-server","command":"npx","args":["@executeautomation/playwright-mcp-server"]}'
+```
