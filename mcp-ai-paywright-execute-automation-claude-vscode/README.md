@@ -133,3 +133,11 @@ If you configure MCP playwright successfully with VSCode, you can have:
 
 We can ask Copilot and MCP to do some scenarios
 ![](./images/mcp-playwright-vscode-example.png)
+
+```
+```
+- Please use playwright MCP to open a browser in iphone 15's screen mode and access to github.com and close the browser.
+- Generate the python code in this folder: `example-python-selenium` with pytest and selenium to run the above action.
+- Note the steps into Readme.md in `example-python-selenium` to help me setup the local environment: virtual python, dependencies to run your script as well.
+```
+```
