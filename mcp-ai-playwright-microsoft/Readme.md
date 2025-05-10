@@ -43,6 +43,9 @@ Configure via this configuration value:
   }
 }
 ```
+# Comparison between `MCP Playwright ExecuteAutomation` and `MCP Playwright Microsoft`
+- No. Methods ?
+- Active with LLM ?
 
 # References
 - [MCP Playwright Microsoft]](https://github.com/microsoft/playwright-mcp)
