@@ -24,12 +24,12 @@ npm install -g @executeautomation/playwright-mcp-server
 In cases, you get the troubles in install some dependencies in node. You can run these command:
 ```
 sudo chown -R $(whoami) ~/.npm
-sudo chown -R $(whoami) /usr/local/lib/node_modules/npm/node_modules
 sudo chown -R $(whoami) /usr/local/lib/node_modules
+sudo chown -R $(whoami) /usr/local/bin
 sudo chown -R $(whoami) /Users/doaitran/Library/Caches
 ```
 
-In case, you installed playwright-mcp-server. We should unstall and install again like:
+In case, you installed playwright-mcp-server. We should uninstall and install again like:
 ```terminal
 ❯ npm install -g @executeautomation/playwright-mcp-server
 npm error code ENOTEMPTY
