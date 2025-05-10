@@ -130,3 +130,6 @@ code-insiders --add-mcp '{"name":"playwright-mcp-server","command":"npx","args":
 ```
 If you configure MCP playwright successfully with VSCode, you can have:
 ![](./images/mcp-playwright-vscode-configure-successful.png)
+
+We can ask Copilot and MCP to do some scenarios
+![](./images/mcp-playwright-vscode-example.png)
