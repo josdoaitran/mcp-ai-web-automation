@@ -88,7 +88,7 @@ Then, we have to reload Claude Desktop app. We will have Playwright as MCP as be
 
 - Example 1
 ```
-Please use playwright MCP to open a browser and access to google.com and search "Smart Testing Lab youtube channel" and then close the browser.
+- Please use playwright MCP to open a browser and access to google.com and search "Smart Testing Lab youtube channel" and then close the browser.
 - Please use playwright MCP to open a brower in iphone 15's screen mode and access to github.com and close the browser.
 ```
 - Example 2
@@ -128,3 +128,5 @@ code --add-mcp '{"name":"playwright-mcp-server","command":"npx","args":["@execut
 # For VS Code Insiders
 code-insiders --add-mcp '{"name":"playwright-mcp-server","command":"npx","args":["@executeautomation/playwright-mcp-server"]}'
 ```
+If you configure MCP playwright successfully with VSCode, you can have:
+![](./images/mcp-playwright-vscode-configure-successful.png)
