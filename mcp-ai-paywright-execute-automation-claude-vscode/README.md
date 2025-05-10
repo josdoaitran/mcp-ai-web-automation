@@ -97,4 +97,4 @@ Please use playwright MCP to open a browser and access to google.com and search 
 - Generate the python code with pytest and selenium to run the above action
 ```
 Here is the example code that Claude generate the tests from the scenario that we work with MCP Playwright.
-![](/mcp-ai-paywright-execute-automation-claude-vscode/images/mcp-playwright-claude-generate-code.png)
+![](./images/mcp-playwright-claude-generate-code.png)
