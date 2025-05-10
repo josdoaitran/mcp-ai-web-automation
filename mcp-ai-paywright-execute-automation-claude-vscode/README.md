@@ -88,9 +88,13 @@ Then, we have to reload Claude Desktop app. We will have Playwright as MCP as be
 
 - Example 1
 ```
-- 
+Please use playwright MCP to open a browser and access to google.com and search "Smart Testing Lab youtube channel" and then close the browser.
+- Please use playwright MCP to open a brower in iphone 15's screen mode and access to github.com and close the browser.
 ```
 - Example 2
 ```
-
+- Please use playwright MCP to open a brower in iphone 15's screen mode and access to github.com and close the browser.
+- Generate the python code with pytest and selenium to run the above action
 ```
+Here is the example code that Claude generate the tests from the scenario that we work with MCP Playwright.
+![](/mcp-ai-paywright-execute-automation-claude-vscode/images/mcp-playwright-claude-generate-code.png)
