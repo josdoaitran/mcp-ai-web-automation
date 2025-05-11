@@ -1,52 +1,55 @@
-# iPhone 15 Browser Simulation with Selenium
-
-This project demonstrates how to use Selenium with Python to simulate an iPhone 15 browser viewport and access GitHub.com.
+# Local Environment Setup Guide
 
 ## Prerequisites
-
 - Python 3.7 or higher
-- Google Chrome browser installed
 - pip (Python package installer)
+- Chrome browser installed
 
-## Setup Instructions
+## Setup Steps
 
-1. Create a virtual environment:
+1. Create and activate virtual environment:
 ```bash
+# Create a virtual environment
 python -m venv venv
-```
 
-2. Activate the virtual environment:
-- On macOS/Linux:
-```bash
+# Activate virtual environment
+# On macOS/Linux:
 source venv/bin/activate
-```
-- On Windows:
-```bash
+# On Windows:
 .\venv\Scripts\activate
 ```
 
-3. Install dependencies:
+2. Install required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-## Running the Tests
+3. Install Chrome WebDriver:
+The Chrome WebDriver should match your Chrome browser version. You can download it from:
+https://sites.google.com/chromium.org/driver/
 
-To run the test:
-```bash
-pytest test_iphone_browser.py -v
+## Project Structure
+```
+example-python-selenium/
+├── test_github_mobile.py  # Test script
+├── requirements.txt       # Python dependencies
+└── README.md             # This file
 ```
 
-## What the Test Does
+## Running the Tests
+To run the tests, make sure your virtual environment is activated and run:
+```bash
+pytest test_github_mobile.py -v
+```
 
-The test script will:
-1. Launch Chrome browser with iPhone 15 viewport dimensions (393x852)
-2. Configure mobile user agent and device metrics
-3. Navigate to GitHub.com
-4. Close the browser automatically after execution
+## Dependencies
+All required packages are listed in requirements.txt:
+- pytest
+- selenium
+- webdriver-manager
 
-## Notes
-
-- The script uses webdriver-manager to automatically handle ChromeDriver installation
-- Mobile emulation is achieved through Chrome DevTools Protocol
-- The browser will close automatically even if the test fails (using try-finally)
+## Troubleshooting
+- Make sure Chrome browser is installed
+- Verify Chrome WebDriver version matches your Chrome browser version
+- Ensure all dependencies are installed correctly
+- Check that virtual environment is activated before running tests

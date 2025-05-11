@@ -67,7 +67,7 @@ To install Playwright MCP for Claude Desktop automatically via [smithery](https:
 
 ## Configure Claude Desktop to work with MCP Server
 
-- Settings > Developer > Configure `claude_desktop_config` file this value
+- Settings > Developer > Configure `claude_desktop_config.json` file this value
 ```
 {
   "mcpServers": {
@@ -93,7 +93,7 @@ Then, we have to reload Claude Desktop app. We will have Playwright as MCP as be
 ```
 - Example 2
 ```
-- Please use playwright MCP to open a brower in iphone 15's screen mode and access to github.com and close the browser.
+- Please use playwright MCP to open a browser in iphone 15's screen mode and access to github.com and close the browser.
 - Generate the python code with pytest and selenium to run the above action
 ```
 Here is the example code that Claude generate the tests from the scenario that we work with MCP Playwright.
