@@ -1,0 +1,4 @@
+flask
+anthropic
+selenium
+webdriver-manager
