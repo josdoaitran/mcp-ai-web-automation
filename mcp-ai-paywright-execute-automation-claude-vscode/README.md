@@ -26,7 +26,7 @@ In cases, you get the troubles in install some dependencies in node. You can run
 sudo chown -R $(whoami) ~/.npm
 sudo chown -R $(whoami) /usr/local/lib/node_modules
 sudo chown -R $(whoami) /usr/local/bin
-sudo chown -R $(whoami) /Users/doaitran/Library/Caches
+sudo chown -R $(whoami) /Users/$(whoami)/Library/Caches
 ```
 
 In case, you installed playwright-mcp-server. We should uninstall and install again like:
