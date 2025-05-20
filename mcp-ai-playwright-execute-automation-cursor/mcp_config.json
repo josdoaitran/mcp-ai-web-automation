@@ -1,6 +1,6 @@
 {
     "mcpServers": {
-      "playwright-mcp-exe-automation":{
+      "playwright-mcp-exe-auto":{
           "command": "npx",
           "args": [
               "@executeautomation/playwright-mcp-server"
